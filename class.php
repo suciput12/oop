@@ -9,9 +9,9 @@
     class kucing
     {
         //membuat property
-        public $warna;
-        public $jml_kaki;
-        public $mkn_fav;
+        public $warna ="coklat";
+        public $jml_kaki =4;
+        public $mkn_fav="pindang";
 
         //membuat method dengan nama bersuara
         public function bersuara()
@@ -22,4 +22,6 @@
 
     //membuat objek baru
     $kucing1 = new kucing();
-    var_dump($kucing1);
+   // var_dump($kucing1);
+   //$kucing -> warna="oren";
+   echo "warna kucing"
