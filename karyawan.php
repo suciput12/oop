@@ -7,6 +7,7 @@ class Karyawan
    protected $gaji;
    private $gjmanager = 5000000;
    private $gjob = 500000;
+
    //optional parameter 
    public function setdata(
       $nama = "Mahmud",
@@ -31,6 +32,7 @@ class Karyawan
       return $this->gaji;
    }
 }
+
 $karyawan = new Karyawan();
 $karyawan->setdata();
 echo "nama = $karyawan->nama <br>";
